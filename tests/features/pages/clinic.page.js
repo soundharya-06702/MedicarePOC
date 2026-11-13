@@ -38,7 +38,7 @@ class ClinicPage {
   }
 
   doctorCards() {
-    return this.page.locator('[data-doctor-id]');
+    return this.page.locator('[data-doctor]');
   }
 
   cards() {
